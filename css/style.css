@@ -1,16 +1,23 @@
 html {
+    display: block;
     margin: 0;
     padding: 0;
 
 }
 
 body {
+    padding: 8px;
     font-family: Verdana;
+    color: white;
     background-color: black;
+    
+}
+
+header {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-flow: column wrap;
-    
 }
 
 h1 {
@@ -21,12 +28,5 @@ h1 {
 a {
     color: aquamarine;
     font-size: 16px;
-
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
 
 }
