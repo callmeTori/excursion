@@ -32,7 +32,13 @@ a {
     font-size: 16px;
 
 }
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
 
 .copyright-text {
+    padding-right: 12px;
     color: gray;
 }
